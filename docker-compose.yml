@@ -1,0 +1,16 @@
+version: "2.4"
+services:
+  mysql:
+    container_name: uveg-mysql
+    image: mysql:8.0
+    volumes:
+      - ./sql-data/db:/var/lib/mysql
+    ports:
+      - "3306:3306"
+    hostname: uveg
+    environment:
+      MYSQL_DATABASE: 'world'
+      MYSQL_USER: 'uveg'
+      MYSQL_PASSWORD: '14270405'
+      MYSQL_ROOT_PASSWORD: 'D_aleLike'
+      MYSQL_ROOT_PASSWORD: 'D_aleLike'
