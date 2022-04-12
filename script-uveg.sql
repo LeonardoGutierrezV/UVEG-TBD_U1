@@ -11,7 +11,7 @@
    Al esquema que se implementara en producción se omite prefijo
 */
 
-CREATE DATABASE developer_db_store;
+CREATE DATABASE db_store;
 
 USE db_store;
 
