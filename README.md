@@ -50,7 +50,7 @@ docker exec -it uveg-mysql /bin/bash -l
 Se debe crear la base de datos store en el SGBD Workbench para la empresa Electronic
 Technologies; asimismo crea las tablas store y products. 
 
-`` CREATE DATABASE developer_db_store; ``
+`` CREATE DATABASE db_store; ``
 
 Seestablece el esquema en el que vamos a trabajar.
 
